@@ -1,0 +1,11 @@
+D:\Latihan Python\FastAPI\Menggunakan_AI\src\services\BiodataService\BiodataService.Domain\bin\Debug\net10.0\BiodataService.Domain.deps.json
+D:\Latihan Python\FastAPI\Menggunakan_AI\src\services\BiodataService\BiodataService.Domain\bin\Debug\net10.0\BiodataService.Domain.dll
+D:\Latihan Python\FastAPI\Menggunakan_AI\src\services\BiodataService\BiodataService.Domain\bin\Debug\net10.0\BiodataService.Domain.pdb
+D:\Latihan Python\FastAPI\Menggunakan_AI\src\services\BiodataService\BiodataService.Domain\obj\Debug\net10.0\BiodataService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Latihan Python\FastAPI\Menggunakan_AI\src\services\BiodataService\BiodataService.Domain\obj\Debug\net10.0\BiodataService.Domain.AssemblyInfoInputs.cache
+D:\Latihan Python\FastAPI\Menggunakan_AI\src\services\BiodataService\BiodataService.Domain\obj\Debug\net10.0\BiodataService.Domain.AssemblyInfo.cs
+D:\Latihan Python\FastAPI\Menggunakan_AI\src\services\BiodataService\BiodataService.Domain\obj\Debug\net10.0\BiodataService.Domain.csproj.CoreCompileInputs.cache
+D:\Latihan Python\FastAPI\Menggunakan_AI\src\services\BiodataService\BiodataService.Domain\obj\Debug\net10.0\BiodataService.Domain.dll
+D:\Latihan Python\FastAPI\Menggunakan_AI\src\services\BiodataService\BiodataService.Domain\obj\Debug\net10.0\refint\BiodataService.Domain.dll
+D:\Latihan Python\FastAPI\Menggunakan_AI\src\services\BiodataService\BiodataService.Domain\obj\Debug\net10.0\BiodataService.Domain.pdb
+D:\Latihan Python\FastAPI\Menggunakan_AI\src\services\BiodataService\BiodataService.Domain\obj\Debug\net10.0\ref\BiodataService.Domain.dll

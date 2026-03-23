@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XhDDWTPNPQE=",
+  "success": true,
+  "projectFilePath": "D:\\Latihan Python\\FastAPI\\Menggunakan_AI\\src\\services\\BiodataService\\BiodataService.Application\\BiodataService.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\EQ\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.5\\microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

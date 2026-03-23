@@ -1,0 +1,41 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: biodata-postgres
+    environment:
+      POSTGRES_DB: biodata_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  biodata-api:
+    build:
+      context: ./src/services/BiodataService/BiodataService.Api
+      dockerfile: Dockerfile
+    container_name: biodata-api
+    ports:
+      - "5100:8080"
+    depends_on:
+      - postgres
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__DefaultConnection: Host=postgres;Port=5432;Database=biodata_db;Username=postgres;Password=postgres
+
+  gateway-api:
+    build:
+      context: ./src/GatewayApi
+      dockerfile: Dockerfile
+    container_name: gateway-api
+    ports:
+      - "5000:8080"
+    depends_on:
+      - biodata-api
+    environment:
+      ASPNETCORE_URLS: http://+:8080
+
+volumes:
+  pgdata:
