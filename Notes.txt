@@ -1,0 +1,17 @@
+1.project pertama adalah BiodataService.Domain ==> Pembuatan model
+2.BiodataService.Application:
+- Tempat membuat repository dan class untuk CRUD
+3.BiodataService.Infrastructure ==> adalah tembat pembuatan datacontext
+
+
+IBiodataRepository
+
+Fokus ke akses data (database): ambil, simpan, update, delete biodata.
+Kelas implementasinya (mis. BiodataRepository) yang tahu detail EF Core/PostgreSQL.
+Jadi layer lain tidak tergantung langsung ke detail database.
+
+
+IBiodataService
+
+Fokus ke logic bisnis/use case: validasi alur, mapping request-response, aturan aplikasi.
+API endpoint/controller cukup panggil service ini, tanpa tahu detail repo atau DB.
